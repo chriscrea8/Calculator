@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(16, 15, 36);
+}
+
+.container {
+    width: 320px;
+    height: 520px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+.result {
+    height: 120px;;
+}
+
+.keyboard {
+    height: 400px;
+}
+
+.history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: grey;
+}
+
+.output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 10%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty {
+    background-color: aliceblue;
+}
+
+.number, .operator {
+    cursor: pointer;
+}
+
+.number:active, .operator:active {
+    font-size: 13px;
+}
+
+.number:focus, .operator:focus, .empty:focus {
+    outline: 0;
+}
+
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12),
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #20b2aa;
+    color: #fff;
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #ffa500;
+}
